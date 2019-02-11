@@ -1,0 +1,99 @@
+# Created by https://www.gitignore.io/api/xcode,swift
+# Edit at https://www.gitignore.io/?templates=xcode,swift
+
+### Swift ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+*.xcodeproj/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+.build/
+
+# CocoaPods
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+# Pods/
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+# *.xcworkspace
+
+# Carthage
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build
+
+# fastlane
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+
+### Xcode ###
+# Xcode
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# End of https://www.gitignore.io/api/xcode,swift
+# Https://www.gitignore.io/api/xcode,swift tarafından düzenlendi # Https://www.gitignore.io/?templates=xcode,swift adresinde düzenleyin ### Swift ### # Xcode # # gitignore katılımcıları: Global / Xcode.gitignore, Objective-C.gitignore & Swift.gitignore sayfasını güncellemeyi unutmayın ## Yapı oluşturuldu inşa etmek/ DerivedData / ## Çeşitli ayarlar * .pbxuser ! default.pbxuser * .mode1v3 ! default.mode1v3 * .mode2v3 ! default.mode2v3 * .perspectivev3 ! default.perspectivev3 xcuserdata / ## Diğer * .Moved-kenara * .xccheckout * .xcscmblueprint ## Obj-C / Swift’e özgü * .hmap * .ipa * .dSYM.zip * .dSYM ## Oyun Alanları timeline.xctimeline playground.xcworkspace # Swift Paket Yöneticisi # Swift Paket Yöneticisi bağımlılıklarından kaynak kodunu kontrol etmekten kaçınmak istiyorsanız, bu satırı ekleyin. # Paketler / # Package.pins # Package.resolved .inşa etmek/ # Kakao Podları # Pods dizinini .gitignore'nize eklemenizi öneririz. ancak # Kendiniz için yargılamalısınız, artıları ve eksileri aşağıda belirtilmiştir: # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control # Pods / # Xcode çalışma alanından kaynak kodunu kontrol etmekten kaçınmak istiyorsanız bu satırı ekleyin # * .xcworkspace # Kartaca # Kaynak kodu Carthage bağımlılıklarından kontrol etmekten kaçınmak istiyorsanız bu satırı ekleyin. # Kartaca / Ödeme Kartaca / Yapı # fastlane # Ekran görüntülerini git deposunda saklamamanız önerilir. Bunun yerine, yeniden oluşturmak için fastlane kullanın. # gerektiğinde ekran görüntüleri. # Önerilen kurulum ziyareti hakkında daha fazla bilgi için: # https://docs.fastlane.tools/best-practices/source-control/#source-control Fastlane / report.xml Fastlane / Preview.html Fastlane / ekran / ** / *. png Fastlane / test_output # Kod Enjeksiyonu # Yeni koddan sonra Enjeksiyon araçları burada üretilen bir klasör / iOSInjectionProject # https://github.com/johnno1962/injectionforxcode iOSInjectionProject / ### Xcode ### # Xcode # gitignore katılımcıları: Global / Xcode.gitignore, Objective-C.gitignore & Swift.gitignore sayfasını güncellemeyi unutmayın ## Kullanıcı ayarları ## Xcode 8 ve daha önceki sürümlerle uyumluluk (Xcode 9'dan başlayarak gerekli olmamak kaydıyla) ## Xcode 3 ve önceki sürümlerle uyumluluk (Xcode 4'ten itibaren gerekli olmadığından yok sayılıyor) ### Xcode Patch ### * .Xcodeproj / * *!. Xcodeproj / project.pbxproj *!. Xcodeproj / xcshareddata / *!. Xcworkspace / contents.xcworkspacedata /*.gcno ** / xcshareddata / WorkspaceSettings.xcsettings # Https://www.gitignore.io/api/xcode,swift adresinin sonu
+translated from: English
